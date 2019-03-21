@@ -1,0 +1,21 @@
+body {
+  width: 1920px;
+  height: 1480px;
+}
+
+header {
+  height: 139px;
+  border-bottom: 1px solid #95989a;
+}
+
+.logo {
+  width: 298px;
+  position: absolute;
+  top: 30px;
+  left: 27px;
+  border: 1px solid #95989a;
+}
+
+.menu {
+  margin-top: 56px;
+}

@@ -132,6 +132,11 @@
     .c-news .c-news-container {
         width: 80%;
     }
+    .c-brand {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
     .c-brand .c-brand-item {
         float: none;
     }

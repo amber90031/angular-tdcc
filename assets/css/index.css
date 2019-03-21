@@ -139,12 +139,13 @@
         width: 80%;
     }
     .c-brand {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        display: block;
+        justify-content: unset;
+        flex-wrap: unset;
     }
     .c-brand .c-brand-item {
-        float: none;
+        margin-left: auto;
+        margin-right: auto;
     }
     .c-brand .container {
         overflow: auto;

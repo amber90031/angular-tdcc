@@ -5,6 +5,9 @@
     margin: 0px auto;
     color: #95989A;
 }
+button.s-btn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
 
 .container {
     width: 80%;

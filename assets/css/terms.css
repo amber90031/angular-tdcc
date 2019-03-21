@@ -74,6 +74,12 @@
         margin-right: 56.645px;
     }
 
+.t-version {
+    text-align: right;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top:15.26px;
+}
 /* terms 資料項目層級*/
 .t-p-lv1 {
     margin: 0px 0px 0px 24px;

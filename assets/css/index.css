@@ -89,10 +89,16 @@
 }
 .c-link .c-link-relative .c-link-relativetitle a {
     float: right;
+    text-decoration: none;
+    color: black;
 }
 .c-link .c-link-relative ul.c-link-relativelinks {
     list-style-type: none;
     padding-inline-start: 0px;
+}
+.c-link .c-link-relative ul.c-link-relativelinks a {
+    text-decoration: none;
+    color: black;
 }
 
 /* 股東會資訊part */

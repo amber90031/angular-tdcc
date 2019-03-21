@@ -1,16 +1,213 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+    <title></title>
+    <style>
+        .container {
+            max-width: 80%;
+            width: 80%;
+            margin: auto;
+        }
+        .border-box * {
+            box-sizing: border-box;
+        }
+        .c-news {
+            margin-top: 10px;
+            overflow: auto;
+        }
+        .c-news .c-news-label {
+            text-align: right;
+            float: left;
+            padding: 10px;
+            width: 15%;
+        }
+        .c-news .c-news-container {
+            background-color: lightblue;
+            padding: 10px;
+            float: left;
+            width: 85%;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .c-brand {
+            margin-top: 10px; 
+        }
+        .c-brand .c-brand-item {
+            float: left;
+        }
+        .c-brand .container {
+            overflow: auto;
+        }
+        .c-brand-item {
+            margin: 50px;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background-color: #888888;
+            text-align: center;
+        }
+        .c-brand-item label {
+            display: block;
+        }
+        .c-begin {
+            margin-top: 10px;
+            overflow: auto;
+        }
+        .c-begin .c-begin-item {
+            border: 1px gray solid;
+            float: left;
+            color: black;
+            text-decoration: none;
+            background: lightseagreen;
+            width: 50%;
+            text-align: center;
+        }
+        .c-begin .c-begin-item :hover{
+            background: darkolivegreen;
+        }
+        .c-begin .c-begin-item a {
+            padding: 15px;
+            color: white;
+            display: block;
+            text-decoration: none;
+        }
+        .c-link {
+            margin-top: 10px;
+            overflow: auto;
+        }
+        .c-link .c-link-otherlinks {
+            float: left;
+            width: 70%;
+        }
+        .c-link-otherlinks .c-link-otherlinks-item {
+            width: 30%;
+            height: 50px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .c-link .c-link-relative {
+            float: left;
+            width: 30%;
+            min-height: 200px;
+            border: #888888 solid 1px;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .c-link .c-link-relative .c-link-relativetitle {
+            padding: 5px;
+        }
+        .c-link .c-link-relative .c-link-relativetitle h4 {
+            display: inline;
+        }
+        .c-link .c-link-relative .c-link-relativetitle a {
+            float: right;
+        }
+        .c-link .c-link-relative ul.c-link-relativelinks {
+            list-style-type: none;
+            padding-inline-start: 0px;
+        }
+
+        @media (max-width: 979px) {
+            .container {
+                max-width: 100%;
+                width: 100%;
+                margin: auto;
+            }
+            .c-news .c-news-label {
+                width: 20%;
+            }
+            .c-news .c-news-container {
+                width: 80%;
+            }
+            .c-brand .c-brand-item {
+                float: none;
+            }
+            .c-brand .container {
+                overflow: auto;
+            }
+            .c-brand-item {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .c-begin .c-begin-item {
+                float: unset;
+                width: 100%;
+            }
+            .c-link .c-link-otherlinks {
+                width: 100%;
+                float: unset;
+                text-align: center;
+            }
+            .c-link-otherlinks .c-link-otherlinks-item {
+                width: 40%;
+            }
+            .c-link .c-link-relative {
+                margin: auto;
+                float: unset;
+                width: 80%;
+                min-height: 200px;
+            }
+        }
+    </style>
 </head>
 <body>
 	<header></header>
-	<div class="container">
-		<div class="c-news"></div>
-		<div class="c-brand"></div>
-		<div class="c-begin"></div>
+	<div class="container border-box">
+		<div class="c-news">
+            <label class="c-news-label">
+                活動消息：
+            </label>
+            <div class="c-news-container">
+                活動消息活動消息活動消息活動消息活動消息活動消息活動消息活動消息活動消息活動消息活動消息活動消息活動消息活動消息活動消息
+            </div>
+        </div>
+		<div class="c-brand">
+            <div class="container">
+                <div class="c-brand-item">
+                    <label>一般股東</label>
+                </div>
+                <div class="c-brand-item">
+                    <label>發行公司、服務代理機構</label>
+                </div>
+                <div class="c-brand-item">
+                    <label>專業機構法人</label>
+                </div>
+            </div>
+        </div>
+		<div class="c-begin">
+            <div class="c-begin-item">
+                <a href="#">新手上路</a>
+            </div>
+            <div class="c-begin-item">
+                <a href="#">首次使用設定</a>
+            </div>
+        </div>
 		<div class="c-meeting-info"></div>
-		<div class="c-link"></div>
+		<div class="c-link">
+            <div class="c-link-otherlinks">
+                <button class="c-link-otherlinks-item"></button>
+                <button class="c-link-otherlinks-item"></button>
+                <button class="c-link-otherlinks-item"></button>
+                <button class="c-link-otherlinks-item"></button>
+                <button class="c-link-otherlinks-item"></button>
+                <button class="c-link-otherlinks-item"></button>
+            </div>
+            <div class="c-link-relative">
+                <div class="c-link-relativetitle">
+                    <h4>相關網站</h4>
+                    <a>more</a>
+                </div>
+                <ul class="c-link-relativelinks">
+                    <li>金融監督管理委員會</li>
+                    <li>台灣證券交易所</li>
+                    <li>台灣期貨交易所</li>
+                    <li>證券櫃檯買賣中心</li>
+                    <li>台灣集保結算所</li>
+                </ul>
+            </div>
+        </div>
 	</div>
 	<footer></footer>
 </body>

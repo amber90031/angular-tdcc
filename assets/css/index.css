@@ -21,25 +21,19 @@
 }
 .c-brand {
     margin-top: 10px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .c-brand .c-brand-item {
-    float: left;
-}
-.c-brand .container {
-    overflow: auto;
-}
-.c-brand-item {
     margin: 50px;
     width: 140px;
     height: 140px;
     border-radius: 50%;
     background-color: #888888;
-    text-align: center;
-}
-.c-brand-item label {
-    position: relative;
-    top: 60px;
-    /*display: block;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .c-begin {
     margin-top: 10px;

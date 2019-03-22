@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#pc #footer {
+  width: 100%;
+  height: 149px;
+  border-top: 1px solid rgb(149, 152, 154);
+  box-sizing: border-box;
+  bottom: 0;
+  background-color: #fff;
+}
+#pc #contect_span1 {
+  margin-left: 56px;
+  margin-top: 31px;
+  width: 331px;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-size: 0.875rem;
+  color: rgba(149, 152, 154, 1);
+}
+#pc #contect_span2 {
+  margin-left: 438px;
+  margin-top: -63px;
+  width: 172px;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-size: 0.875rem;
+  color: rgba(149, 152, 154, 1);
+}
+#pc #footer_line {
+  border-left: 1px solid rgb(149, 152, 154);
+  margin-top: -31.5px;
+  margin-left: 650.5px;
+  width: 1px;
+  height: 91px;
+}
+#pc .footer_images {
+  margin-left: 714px;
+  margin-top: -90px;
+  align-items: center;
+}
+#pc .footer_images img {
+  width: 154px;
+  height: auto;
+  margin-right: 60px;
+}
+#pc #header {
+  border-bottom: 1px solid rgb(149, 152, 154);
+  width: 100%;
+  height: 139px;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+}
+#pc #logo {
+  position: absolute;
+  width: 15.5%;
+  height: 5.3%;
+  left: 27px;
+  top: 30px;
+}
+#pc #logo_tdcc,
+.t-logo #logo_tdcc {
+  position: absolute;
+  left: 0px;
+  top: 26.112px;
+  width: 5%;
+  white-space: nowrap;
+  font-family: Helvetica Neue;
+  font-size: 2rem;
+  color: rgba(149, 152, 154, 1);
+}
+#pc #logo_span1,
+.t-logo #logo_span1 {
+  position: absolute;
+  left: 109.417px;
+  top: 0px;
+  width: 8%;
+  white-space: nowrap;
+  font-family: Helvetica Neue;
+  font-size: 2.188rem;
+  color: rgba(149, 152, 154, 1);
+}
+#pc #logo_span2,
+.t-logo #logo_span2 {
+  position: absolute;
+  left: 108.521px;
+  top: 50.224px;
+  width: 9.9%;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-size: 1.313rem;
+  color: rgba(149, 152, 154, 1);
+}
+#pc .header-menu {
+  float: right;
+  width: 65.6%;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-size: 1.25rem;
+  color: rgba(149, 152, 154, 1);
+}
+#pc .header-menu a {
+  float: right;
+  text-decoration: none;
+  color: rgb(149, 152, 154);
+}
+#mobile #footer {
+  width: 100%;
+  height: 149px;
+  border-top: 1px solid rgb(149, 152, 154);
+  box-sizing: border-box;
+  bottom: 0;
+  background-color: #fff;
+}
+#mobile .contect_span {
+  margin-left: 21px;
+  margin-top: 31px;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-size: 0.875rem;
+  color: rgba(149, 152, 154);
+}
+#mobile .footer_images {
+  margin-left: 21px;
+  margin-top: 31px;
+  align-items: center;
+}
+#mobile .footer_images img {
+  width: 154px;
+  height: auto;
+  margin-right: 60px;
+}
+#mobile #header {
+  border-bottom: 1px solid rgb(149, 152, 154);
+  width: 100%;
+  height: 139px;
+  background-color: #fff;
+}
+#mobile #logo {
+  position: absolute;
+  width: 15.5%;
+  height: 5.3%;
+  left: 27px;
+  top: 30px;
+}
+#mobile #logo_tdcc {
+  position: absolute;
+  left: 0px;
+  top: 26.112px;
+  width: 5%;
+  white-space: nowrap;
+  font-family: Helvetica Neue;
+  font-size: 2rem;
+  color: rgba(149, 152, 154, 1);
+}
+#mobile #logo_span1 {
+  position: absolute;
+  left: 109.417px;
+  top: 0px;
+  width: 8%;
+  white-space: nowrap;
+  font-family: Helvetica Neue;
+  font-size: 2.188rem;
+  color: rgba(149, 152, 154, 1);
+}
+#mobile #logo_span2 {
+  position: absolute;
+  left: 108.521px;
+  top: 50.224px;
+  width: 9.9%;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-size: 1.313rem;
+  color: rgba(149, 152, 154, 1);
+}
+#mobile .header-menu {
+  float: right;
+  width: 65.6%;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-size: 1.25rem;
+  color: rgba(149, 152, 154, 1);
+}
+#mobile .header-menu a {
+  float: right;
+}
+@media screen and (max-width: 979px) {
+  #pc {
+    display: none;
+  }
+  #mobile {
+    display: block;
+  }
+}
+@media screen and (min-width: 980px) {
+  #pc {
+    display: block;
+  }
+  #mobile {
+    display: none;
+  }
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #0f296f;
+}
+
+.menu li a {
+  display: block;
+  padding: 20px 20px;
+  border: 1px solid #95989a;
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  background-color: #ffffff;
+  color: #0f296f;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menu li {
+  background-color: #0f296f;
+}
+
+.hamburger-menu {
+  background-color: #0f296f;
+  border-radius: 50px;
+  width: 35px;
+  height: 35px;
+  margin-top: 55px;
+  float: right;
+  z-index: 999;
+}
+
+.topmenu.responsive {
+  display: block;
+  top: 140px;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+.topmenu {
+  display: none;
+}

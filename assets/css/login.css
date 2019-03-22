@@ -14,12 +14,11 @@
     font-size: 20px;
     color: #95989a;
     width: 1024px;
-    height: 1080px;
     line-height: 24px;
     text-align: center;
-    padding: 0px;
+    padding-top: 50px;
+    padding-bottom: 200px;
     margin: 0px auto;
-    border: 1px solid #95989a;
 }
 
 

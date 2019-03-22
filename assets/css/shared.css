@@ -190,7 +190,7 @@ body {
 #mobile .header-menu a {
   float: right;
 }
-@media screen and (max-width: 979px) {
+@media (max-width: 979px) {
   #pc {
     display: none;
   }
@@ -198,7 +198,7 @@ body {
     display: block;
   }
 }
-@media screen and (min-width: 980px) {
+@media (min-width: 980px) {
   #pc {
     display: block;
   }

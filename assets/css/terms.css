@@ -96,7 +96,7 @@
   margin: 0px 0px 0px 24pt;
 }
 
-@media screen and (max-width: 979px) {
+@media (max-width: 979px) {
   .t-content.m {
     padding-top: 0px;
   }

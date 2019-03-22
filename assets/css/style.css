@@ -1,25 +1,26 @@
 /* button */
-.s-btn { /*login, terms共用*/
-    background-color: #FFFFFF;
-    border: 1px solid #95989A;
-    margin: 0px auto;
-    color: #95989A;
+.s-btn {
+  /*login, terms共用*/
+  background-color: #ffffff;
+  border: 1px solid #95989a;
+  margin: 0px auto;
+  color: #95989a;
 }
 button.s-btn:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .container {
-    width: 80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
 }
 
-@media screen and (max-width: 979px) {
-    .container {
-        width: 100%;
-    }
+@media (max-width: 979px) {
+  .container {
+    width: 100%;
+  }
 }
-@media screen and (min-width: 980px) {
+@media (min-width: 980px) {
   .container {
     margin-top: 139px;
   }

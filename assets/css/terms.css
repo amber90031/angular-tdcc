@@ -38,18 +38,18 @@
   margin: 0px;
 }
 
-.t-header .t-header-m {
+.t-header-m {
   display: none;
 }
 
 /* terms content */
 .t-content {
-  padding-top: 225px;
+  padding: 10%;
+  padding-top: 140px;
 }
 
 /* terms card */
 .t-card {
-  width: 1010.18px;
   margin: 0 auto;
   padding: 53.7px 50.58px 29.66px 64.6px;
   border: 1px solid #95989a;
@@ -96,8 +96,23 @@
   margin: 0px 0px 0px 24pt;
 }
 
+header {
+  background-color: #e2e2e2;
+  justify-content: end;
+}
+
+footer {
+  display: none;
+}
+
 @media (max-width: 979px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
   .t-content.m {
+    padding: 0px;
     padding-top: 0px;
   }
 
@@ -114,12 +129,12 @@
     height: 76px;
   }
 
-  .t-header .t-header-m {
+  .t-header-m {
     display: block;
     font-size: 24px;
   }
 
-  .t-header .t-header-pc {
+  .t-header-pc {
     display: none;
   }
 

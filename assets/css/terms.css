@@ -1,4 +1,5 @@
 ﻿/* terms body */
+
 .t-body {
   width: 100%;
   height: 854.99px;
@@ -7,6 +8,7 @@
 }
 
 /* terms header */
+
 .t-header {
   position: fixed;
   width: 100%;
@@ -43,12 +45,14 @@
 }
 
 /* terms content */
+
 .t-content {
   padding: 10%;
   padding-top: 140px;
 }
 
 /* terms card */
+
 .t-card {
   margin: 0 auto;
   padding: 53.7px 50.58px 29.66px 64.6px;
@@ -60,6 +64,7 @@
 }
 
 /* button */
+
 .t-group {
   text-align: center;
   padding: 0px;
@@ -68,10 +73,11 @@
 
 .t-group .t-group-btn {
   display: inline;
-  width: 156.45px;
+  width: 200px;
   padding-top: 11.09px;
   padding-bottom: 10.64px;
-  margin-left: 56.645px; /* 117.29/2= 56.645*/
+  margin-left: 56.645px;
+  /* 117.29/2= 56.645*/
   margin-right: 56.645px;
 }
 
@@ -81,7 +87,9 @@
   line-height: 16px;
   margin-top: 15.26px;
 }
+
 /* terms 資料項目層級*/
+
 .t-p-lv1 {
   margin: 0px 0px 0px 24px;
   text-indent: -24pt;
@@ -115,37 +123,32 @@ footer {
     padding: 0px;
     padding-top: 0px;
   }
-
   .t-card.m {
     margin: 0px;
     width: auto;
     border-style: none;
     padding: 82px 18px 0px;
   }
-
   .t-header.m {
     margin: 0px auto;
     text-align: center;
     height: 76px;
   }
-
   .t-header-m {
     display: block;
     font-size: 24px;
   }
-
   .t-header-pc {
     display: none;
   }
-
   .t-group.m {
     padding-top: 31px;
     margin: 0 auto;
   }
-
   .t-group .t-group-btn.m {
     display: inline-block;
-    width: 80%; /* 1-(36*2)/360=0.8 */
+    width: 80%;
+    /* 1-(36*2)/360=0.8 */
     margin-top: 10px;
     margin-bottom: 10px;
   }

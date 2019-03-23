@@ -1,27 +1,64 @@
-/* button */
-.s-btn {
-  /*login, terms共用*/
-  background-color: #ffffff;
-  border: 1px solid #95989a;
-  margin: 0px auto;
-  color: #95989a;
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
 }
-button.s-btn:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+
+body * {
+    font-family: "Helvetica Neue", 微軟正黑體, Arial, sans-serif;
+}
+
+button,
+input,
+select {
+    font-size: 18px;
+}
+
+
+/* button */
+
+button {
+    background-color: #FFFFFF;
+    border: 1px solid #95989A;
+    margin: 0px auto;
+    color: #95989A;
+    padding: 5px 16px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* input */
+
+input {
+    height: 37px;
+    border: 1px solid #FFFFFF;
+    border-bottom: 1px solid #95989A;
+}
+
+
+/* select */
+
+select {
+    height: 37px;
+    border: 1px solid #95989A;
 }
 
 .container {
-  width: 80%;
-  margin: auto;
+    width: 80%;
+    margin: auto;
 }
 
-@media (max-width: 979px) {
-  .container {
-    width: 100%;
-  }
+@media screen and (max-width: 979px) {
+    .container {
+        width: 100%;
+    }
 }
-@media (min-width: 980px) {
-  .container {
-    margin-top: 139px;
-  }
+
+@media screen and (min-width: 980px) {
+    .container {
+        margin-top: 139px;
+    }
 }

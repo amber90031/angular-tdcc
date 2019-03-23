@@ -108,7 +108,7 @@
 .c-meeting-info > div:nth-child(1) {
   border: 1px solid black;
   padding: 4px;
-  width: 12%;
+  width: 15%;
   background: #d4d4d4;
   text-align: center;
 }
@@ -116,17 +116,16 @@
   border: 1px solid black;
   padding: 20px;
 }
-#infoSearch > div {
+.c-info-search > div {
   display: inline-block;
   width: 49%;
   margin: 5px 0;
 }
-#infoResult table {
+.c-info-result table {
   border-collapse: collapse;
   width: 100%;
 }
-#infoResult th,
-#infoResult td {
+.c-info-result th, .c-info-result td {
   border-bottom: 1px solid gray;
   text-align: center;
   padding: 4px;
@@ -182,35 +181,32 @@
     border: none;
   }
 
-  #infoSearch > div {
+  .c-info-search > div {
     width: 100%;
   }
-  #infoSearch > div > label {
+  .c-info-search > div > label {
     display: block;
   }
 
-  #infoResult tr {
+  .c-info-result tr {
     display: block;
     padding: 0 20px;
   }
-  #infoResult tbody tr {
+  .c-info-result tbody tr {
     border: 1px solid gray;
     margin: 10px 0;
     padding: 20px;
   }
-  #infoResult th,
-  #infoResult td {
+  .c-info-result th, .c-info-result td {
     display: inline-block;
     border: none;
     text-align: left;
     padding: 4px 0;
   }
-  #infoResult th,
-  #infoResult td {
+  .c-info-result th, .c-info-result td {
     width: 49%;
   }
-  #infoResult th:nth-child(3),
-  #infoResult td:nth-child(3) {
+  .c-info-result th:nth-child(3), .c-info-result td:nth-child(3) {
     width: 100%;
   }
 }

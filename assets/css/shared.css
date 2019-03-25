@@ -1,13 +1,4 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Helvetica Neue;
-}
-
-.container {
-  margin-top: 5em;
-}
-
+/*header*/
 header {
   display: flex;
   align-items: center;
@@ -21,6 +12,24 @@ header {
   color: #95989a;
 }
 
+/*header-logo*/
+.header-logo {
+  height: 5em;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo a {
+  height: 5em;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo img {
+  height: 80%;
+}
+
+/*header-menu*/
 header label {
   display: none;
 }
@@ -29,37 +38,22 @@ header input {
   display: none;
 }
 
-.logo {
-  height: 5em;
-  display: flex;
-  align-items: center;
-}
-
-.logo a {
-  height: 5em;
-  display: flex;
-  align-items: center;
-}
-
-.logo img {
-  height: 80%;
-}
-
-nav {
+header nav {
   margin-right: 15px;
 }
 
-nav li {
+header nav li {
   display: inline;
   border-right: 1px solid #95989a;
   padding: 5px;
 }
 
-nav li a {
+header nav li a {
   text-decoration: none;
   color: #95989a;
 }
 
+/*footer*/
 footer {
   border-top: 1px solid rgb(149, 152, 154);
   display: flex;
@@ -81,10 +75,12 @@ footer div {
 }
 
 @media (max-width: 979px) {
+  /*header*/
   header {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  /*header-menu*/
   header label {
     display: block;
     margin: 15px;
@@ -100,13 +96,13 @@ footer div {
     overflow: hidden;
     background-color: #0f296f;
   }
-  .menu-open-button {
+  .menu-button {
     background: #0f296f;
     border-radius: 100%;
     width: 40px;
     height: 40px;
   }
-  .lines {
+  .menu-button-lines {
     width: 18px;
     height: 2px;
     background: #ffffff;
@@ -114,25 +110,25 @@ footer div {
     margin-left: 11px;
     margin-top: 19px;
   }
-  .line-1 {
+  .menu-button-lines-1 {
     -webkit-transform: translate3d(0, -8px, 0);
   }
-  .line-3 {
+  .menu-button-lines-3 {
     -webkit-transform: translate3d(0, 8px, 0);
   }
-  nav {
+  header nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
     width: 100%;
   }
-  nav li {
+  header nav li {
     display: unset;
     border-right: 0px solid #95989a;
     padding: 0px;
   }
-  nav li a {
+  header nav li a {
     display: block;
     padding: 20px 20px;
     border: 1px solid #95989a;
@@ -140,15 +136,14 @@ footer div {
     color: #ffffff;
     font-weight: bold;
   }
-  nav li a:hover {
+  header nav li a:hover {
     background-color: #ffffff;
     color: #0f296f;
   }
-
+  /*footer*/
   footer {
     display: block;
   }
-
   .footer-line {
     display: none;
   }
